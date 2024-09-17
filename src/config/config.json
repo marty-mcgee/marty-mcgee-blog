@@ -1,22 +1,22 @@
 {
   "site": {
-    "title": "Nextplate",
-    "base_url": "https://nextplate.netlify.app",
+    "title": "Marty McGee, Web Developer",
+    "base_url": "https://marty-mcgee.com",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_darkmode": "/images/logo-darkmode.png",
-    "logo_width": "150",
-    "logo_height": "27",
-    "logo_text": "Nextplate"
+    "logo_width": "160",
+    "logo_height": "30",
+    "logo_text": "Marty McGee"
   },
 
   "settings": {
     "search": true,
     "sticky_header": true,
     "theme_switcher": true,
-    "default_theme": "light",
+    "default_theme": "dark",
     "pagination": 2,
     "summary_length": 200,
     "blog_folder": "blog",
@@ -27,13 +27,13 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
+    "copyright": "Web Development by [Marty McGee](https://marty-mcgee.com/?ref=footer)"
   },
 
   "navigation_button": {
     "enable": true,
-    "label": "Get Started",
-    "link": "https://github.com/zeon-studio/nextplate"
+    "label": "Contact Me",
+    "link": "https://marty-mcgee.com/contact"
   },
 
   "disqus": {
@@ -43,8 +43,8 @@
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
-    "meta_image": "/images/og-image.png",
-    "meta_description": "Next Boilerplate"
+    "meta_author": "Marty McGee",
+    "meta_image": "/images/banner.png",
+    "meta_description": "NextJS React Web Developer"
   }
 }
