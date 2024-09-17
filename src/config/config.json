@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Marty McGee, Web Developer",
+    "title": "Marty McGee, 3D React Web Developer",
     "base_url": "https://marty-mcgee.com",
     "base_path": "/",
     "trailing_slash": false,
@@ -45,6 +45,6 @@
   "metadata": {
     "meta_author": "Marty McGee",
     "meta_image": "/images/banner.png",
-    "meta_description": "NextJS React Web Developer"
+    "meta_description": "NextJS 3D React Web Developer"
   }
 }
