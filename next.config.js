@@ -1,15 +1,15 @@
-const config = require("./src/config/config.json");
-const languages = require("./src/config/language.json");
-const disableLanguages = config.settings.disable_languages;
+const config = require("./src/config/config.json")
+const languages = require("./src/config/language.json")
+const disableLanguages = config.settings.disable_languages
 const activeLanguages = languages.filter(
   (lang) => !disableLanguages.includes(lang.languageCode),
-);
+)
 
-const defaultLanguage = config.settings.default_language;
+const defaultLanguage = config.settings.default_language
 
 const otherLanguages = activeLanguages
   .map((lang) => lang.languageCode)
-  .filter((lang) => lang !== defaultLanguage);
+  .filter((lang) => lang !== defaultLanguage)
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -19,7 +19,7 @@ const nextConfig = {
   output: "standalone",
   async rewrites() {
     if (config.settings.default_language_in_subdir) {
-      return [];
+      return []
     }
 
     return activeLanguages.length !== 1
@@ -42,8 +42,21 @@ const nextConfig = {
             source: "/:path*",
             destination: `/${defaultLanguage}/:path*`,
           },
-        ];
+        ]
   },
-};
 
-module.exports = nextConfig;
+  // ** WEBPACK [MM]
+  webpack(config, { isServer }) {
+    // glb + gltf support
+    config.module.rules.push({
+      test: /\.(glb|gltf)$/,
+      // include: [/public/],
+      exclude: /node_modules/,
+      type: 'asset/resource',
+    })
+    return config
+  },
+
+}
+
+module.exports = nextConfig

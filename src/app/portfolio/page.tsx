@@ -1,3 +1,5 @@
+// 'use client'
+
 import ImageFallback from "@/helpers/ImageFallback"
 import MDXContent from "@/helpers/MDXContent"
 import { getActiveLanguages, getLanguageObj } from "@/lib/languageParser"
@@ -12,31 +14,31 @@ import path from "path"
 // ** NEXT Imports
 import dynamic from 'next/dynamic'
 // ** PORTFOLIO App
-// import { App } from './App'
+// import App from './App'
 const App = dynamic(() => import('./App'), { ssr: false })
 
 
 const Portfolio = ({ params }: { params: { lang: string } }) => {
-  const language = getLanguageObj(params.lang)
-  const data: RegularPage = getListPage(
-    path.join(language.contentDir, "about/_index.md"),
-  )
-  const { frontmatter, content } = data
-  const { title, meta_title, description, image } = frontmatter
+  // const language = getLanguageObj(params.lang)
+  // const data: RegularPage = getListPage(
+  //   path.join(language.contentDir, "about/_index.md"),
+  // )
+  // const { frontmatter, content } = data
+  // const { title, meta_title, description, image } = frontmatter
 
   return (
     <>
-      <SeoMeta
+      {/* <SeoMeta
         title={title}
         meta_title={meta_title}
         description={description}
         image={image}
-      />
+      /> */}
       <section className="section-sm">
         <div className="container">
           <div className="row justify-center">
             <div className="text-center md:col-10 lg:col-7">
-              {image && (
+              {/* {image && (
                 <ImageFallback
                   className="mx-auto mb-6 rounded-lg"
                   src={image}
@@ -44,14 +46,16 @@ const Portfolio = ({ params }: { params: { lang: string } }) => {
                   height={200}
                   alt={title}
                 />
-              )}
-              <h2
+              )} */}
+              {/* <h2
                 dangerouslySetInnerHTML={markdownify(title)}
                 className="h3 mb-6"
-              />
+              /> */}
               <div className="content">
+                <h1>Pickles Tea Still</h1>
+                {/* @ts-expect-error */}
                 <App />
-                <MDXContent content={content} />
+                {/* <MDXContent content={content} /> */}
               </div>
             </div>
           </div>
