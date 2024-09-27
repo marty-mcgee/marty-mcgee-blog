@@ -53,8 +53,8 @@ const Portfolio = ({ params }: { params: { lang: string } }) => {
               /> */}
               <div className="content">
                 <h1>Pickles Tea Still</h1>
-                {/* @ts-expect-error */}
-                <App />
+                {/* @ ts-expect-error */}
+                {/* <App /> */}
                 {/* <MDXContent content={content} /> */}
               </div>
             </div>
