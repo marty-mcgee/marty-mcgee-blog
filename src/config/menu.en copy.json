@@ -1,15 +1,15 @@
 {
   "main": [
     {
-      "name": "Maison",
+      "name": "Home",
       "url": "/"
     },
     {
-      "name": "Propos",
+      "name": "About",
       "url": "/about"
     },
     {
-      "name": "Éléments",
+      "name": "Elements",
       "url": "/elements"
     },
     {
@@ -26,16 +26,28 @@
           "url": "/blog"
         },
         {
-          "name": "Catégories",
+          "name": "Authors",
+          "url": "/authors"
+        },
+        {
+          "name": "Categories",
           "url": "/categories"
+        },
+        {
+          "name": "Tags",
+          "url": "/tags"
+        },
+        {
+          "name": "404 Page",
+          "url": "/404"
         }
       ]
     }
   ],
   "footer": [
     {
-      "name": "Maison",
-      "url": "/"
+      "name": "Elements",
+      "url": "/elements"
     },
     {
       "name": "Privacy Policy",

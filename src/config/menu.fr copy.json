@@ -9,7 +9,7 @@
       "url": "/about"
     },
     {
-      "name": "Éléments",
+      "name": "éléments",
       "url": "/elements"
     },
     {
@@ -26,16 +26,28 @@
           "url": "/blog"
         },
         {
+          "name": "Auteures",
+          "url": "/authors"
+        },
+        {
           "name": "Catégories",
           "url": "/categories"
+        },
+        {
+          "name": "Mots-clés",
+          "url": "/tags"
+        },
+        {
+          "name": "Page 404",
+          "url": "/404"
         }
       ]
     }
   ],
   "footer": [
     {
-      "name": "Maison",
-      "url": "/"
+      "name": "Éléments",
+      "url": "/elements"
     },
     {
       "name": "Privacy Policy",
