@@ -52,7 +52,7 @@ const Portfolio = ({ params }: { params: { lang: string } }) => {
                 className="h3 mb-6"
               /> */}
               <div className="content">
-                <h1>Pickles Tea Still</h1>
+                <h1>Pickles | Tea | Still</h1>
                 {/* @ ts-expect-error */}
                 {/* <App /> */}
                 {/* <MDXContent content={content} /> */}
