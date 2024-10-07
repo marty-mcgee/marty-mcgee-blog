@@ -27,7 +27,7 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Web Development by [Marty McGee](https://marty-mcgee.com/?ref=footer)"
+    "copyright": "&copy; Web Development by [Marty McGee](https://marty-mcgee.com/?ref=footer)"
   },
 
   "navigation_button": {

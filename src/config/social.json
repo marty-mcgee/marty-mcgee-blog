@@ -1,16 +1,6 @@
 {
   "main": [
     {
-      "name": "facebook",
-      "icon": "FaFacebook",
-      "link": "https://www.facebook.com/mcgee.marty"
-    },
-    {
-      "name": "twitter",
-      "icon": "FaTwitter",
-      "link": "https://twitter.com/martymcgee"
-    },
-    {
       "name": "github",
       "icon": "FaGithub",
       "link": "https://www.github.com/marty-mcgee"
@@ -19,6 +9,16 @@
       "name": "linkedin",
       "icon": "FaLinkedin",
       "link": "https://www.linkedin.com/in/martymcgee"
+    },
+    {
+      "name": "instagram",
+      "icon": "FaInstagram",
+      "link": "https://www.instagram.com/mcgeehomegarden"
+    },
+    {
+      "name": "facebook",
+      "icon": "FaFacebook",
+      "link": "https://www.facebook.com/mcgee.marty"
     }
   ]
 }
