@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "Full-Stack Senior Web Developer for Your Next JS Project"
+  title: "Full-Stack Web Developer for Your Next JS Project"
   content: "Marty McGee is a senior-level full-stack web developer using JavaScript, TypeScript, React, Next.JS, Three.js and ThreeD technologies, providing everything your team needs to jumpstart your Next 3D web project."
   image: "/images/banner.png"
   button:
