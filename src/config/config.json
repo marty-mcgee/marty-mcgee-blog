@@ -4,11 +4,11 @@
     "base_url": "https://marty-mcgee.com",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_darkmode": "/images/logo-darkmode.png",
-    "logo_width": "240",
-    "logo_height": "48",
+    "favicon": "/images/favicon.webp",
+    "logo": "/images/logo.webp",
+    "logo_darkmode": "/images/logo-darkmode.webp",
+    "logo_width": "180",
+    "logo_height": "36",
     "logo_text": "Marty McGee"
   },
 
