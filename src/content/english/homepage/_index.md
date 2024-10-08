@@ -7,7 +7,7 @@ banner:
   button:
     enable: false
     label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/nextplate"
+    link: "/contact"
 
 # Features
 features:
@@ -36,7 +36,7 @@ features:
     button:
       enable: false
       label: "Get Started Now"
-      link: "https://github.com/zeon-studio/nextplate"
+      link: "/contact"
 
   - title: "The Top Reasons to Choose Marty for Your Next Project"
     image: "/images/service-3.png"

@@ -119,7 +119,7 @@ const Home = ({ params }: { params: { lang: string } }) => {
           <div className="container">
             <div className="row items-center justify-between">
               <div
-                className={`mb:md-0 mb-6 md:col-5 ${
+                className={`mb:md-0 mb-2 md:col-5 ${
                   index % 2 !== 0 && "md:order-2"
                 }`}
               >
