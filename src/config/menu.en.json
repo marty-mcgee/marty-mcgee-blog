@@ -14,12 +14,16 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Contact",
-          "url": "/contact"
+          "name": "ThreeD Garden",
+          "url": "/participate"
         },
         {
-          "name": "Blog",
-          "url": "/blog"
+          "name": "ThreeD Home Design",
+          "url": "/home-design"
+        },
+        {
+          "name": "Contact",
+          "url": "/contact"
         }
       ]
     }
