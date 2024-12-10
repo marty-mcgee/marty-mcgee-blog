@@ -16,7 +16,6 @@ import { playList } from "./playlist"
 export default function MusicPlayerApp() {
   const [progressType, setProgressType] = useState<ProgressUI>("waveform")
   const [playerPlacement, setPlayerPlacement] = useState<PlayerPlacement>("static")
-  // @ts-expect-error
   const [interfacePlacement, setInterfacePlacement] = useState<InterfaceGridTemplateArea>()
   const [playListPlacement, setPlayListPlacement] = useState<PlayListPlacement>("bottom")
   const [volumeSliderPlacement, setVolumeSliderPlacement] = useState<VolumeSliderPlacement>()

@@ -11,25 +11,6 @@
     {
       "name": "Music",
       "url": "/music"
-    },
-    {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "ThreeD Garden",
-          "url": "/participate"
-        },
-        {
-          "name": "ThreeD Home Design",
-          "url": "/home-design"
-        },
-        {
-          "name": "Contact",
-          "url": "/contact"
-        }
-      ]
     }
   ],
   "footer": [
