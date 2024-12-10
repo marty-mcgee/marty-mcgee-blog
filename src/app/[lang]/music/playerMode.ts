@@ -9,6 +9,7 @@ import {
 export const playerMode: Record<
   number,
   {
+    // @ts-expect-error
     interfacePlacement: InterfaceGridTemplateArea;
     playListPlacement: PlayListPlacement;
     progressType: ProgressUI;

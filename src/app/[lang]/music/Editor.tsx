@@ -13,6 +13,7 @@ interface EditorProps {
   setProgressType: React.Dispatch<React.SetStateAction<ProgressUI>>;
   setPlayerPlacement: React.Dispatch<React.SetStateAction<PlayerPlacement>>;
   setInterfacePlacement: React.Dispatch<
+    // @ts-expect-error
     React.SetStateAction<InterfaceGridTemplateArea | undefined>
   >;
   setPlayListPlacement: React.Dispatch<React.SetStateAction<PlayListPlacement>>;

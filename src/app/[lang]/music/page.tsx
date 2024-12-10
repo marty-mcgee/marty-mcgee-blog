@@ -10,12 +10,13 @@ import AudioPlayer, {
   VolumeSliderPlacement
 } from "react-modern-audio-player"
 import { useState } from "react"
-import { playList } from "./playList"
-import Editor from "./Editor"
+import { playList } from "./playlist"
+// import Editor from "./Editor"
 
 export default function MusicPlayerApp() {
   const [progressType, setProgressType] = useState<ProgressUI>("waveform")
   const [playerPlacement, setPlayerPlacement] = useState<PlayerPlacement>("static")
+  // @ts-expect-error
   const [interfacePlacement, setInterfacePlacement] = useState<InterfaceGridTemplateArea>()
   const [playListPlacement, setPlayListPlacement] = useState<PlayListPlacement>("bottom")
   const [volumeSliderPlacement, setVolumeSliderPlacement] = useState<VolumeSliderPlacement>()
@@ -49,7 +50,7 @@ export default function MusicPlayerApp() {
         />
       </div>
 
-      <Editor
+      {/* <Editor
         setPlayerPlacement={setPlayerPlacement}
         setProgressType={setProgressType}
         setInterfacePlacement={setInterfacePlacement}
@@ -58,7 +59,7 @@ export default function MusicPlayerApp() {
         setTheme={setTheme}
         setActiveUI={setActiveUI}
         setWidth={setWidth}
-      />
+      /> */}
     </div>
   )
 }
