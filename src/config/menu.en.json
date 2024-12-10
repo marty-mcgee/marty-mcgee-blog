@@ -9,6 +9,10 @@
       "url": "/about"
     },
     {
+      "name": "Music",
+      "url": "/music"
+    },
+    {
       "name": "Pages",
       "url": "",
       "hasChildren": true,

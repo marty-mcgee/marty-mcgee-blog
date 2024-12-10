@@ -1,6 +1,6 @@
 {
   "name": "marty-mcgee-blog",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "Nextjs React + ThreeD AI Blog",
   "author": "Marty McGee <mcgee.marty@gmail.com>",
   "license": "MIT",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
 
-    "next": "14.2.14",
+    "next": "14.2.18",
     "next-mdx-remote": "^4.4.1",
     "next-sitemap": "^4.2.3",
     "next-themes": "^0.3.0",
@@ -48,14 +48,15 @@
     "remark-gfm": "^3.0.1",
     "swiper": "^11.1.3",
 
-
     "@pmndrs/assets": "1.6.0",
     "@pmndrs/branding": "0.0.8",
     "@react-three/drei": "9.112.1",
     "@react-three/fiber": "8.17.7",
     "@types/three": "^0.168.0",
     "three": "^0.168.0",
-    "wouter": "^2.11.0"
+    "wouter": "^2.11.0",
+
+    "react-modern-audio-player": "1.4.0-rc2"
 
   },
   "devDependencies": {
